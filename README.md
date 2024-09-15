@@ -1,5 +1,5 @@
-# GleamStore
-GleamStore is a easy to use and powerful ROBLOX datastore!
+# Gleam
+Gleam is a easy to use and powerful ROBLOX datastore!
 
 > [!WARNING]
 > This is still in development, which means it is not meant to be used for final projects yet.
@@ -9,15 +9,15 @@ GleamStore is a easy to use and powerful ROBLOX datastore!
 - Replicate to client with ease
 
 # Server Documentation
-## GleamStore.new()
+## Gleam.new()
 This will create a new DataStore Class using the name, scope & template passed.
 ```lua
 local storeOptions = {name = 'UserData', scope = 'scope'}
 local profileTemplate = {['Gold'] = 0, ['Inventory'] = {['Item1'] = 5}}
-local ProfileStore = GleamStore.new(storeOptions, profileTemplate)
+local GleamStore = Gleam.new(storeOptions, profileTemplate)
 ```
 
-## GleamStore:GetPlayerProfile()
+## Gleam:GetPlayerProfile()
 This will return a players profile when loaded
 ```lua
 local playerProfile = GleamStore:GetPlayerProfile(player : Player)
