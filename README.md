@@ -1,6 +1,9 @@
 # GleamStore
 GleamStore is a easy to use and powerful ROBLOX datastore!
 
+> [!WARNING]
+> This is still in development, which means it is not meant to be used for final projects yet.
+
 # Features
 - Easy to set & get values
 - Replicate to client with ease
