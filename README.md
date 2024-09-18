@@ -4,6 +4,10 @@ Gleam is a easy to use and powerful ROBLOX datastore!
 > [!WARNING]
 > This is still in development, which means it is not meant to be used for final projects yet.
 
+# Get it on marketplace!
+Take the model from roblox marketplace to use in studio!
+https://create.roblox.com/store/asset/118382162264841/Gleam?externalSource=www&assetType=Model
+
 # Features
 - Easy to set & get values
 - Replicate to client with ease
