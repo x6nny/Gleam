@@ -12,7 +12,7 @@ Gleam is a easy to use and powerful ROBLOX datastore!
 ## Gleam.new()
 This will create a new DataStore Class using the name, scope & template passed.
 ```lua
-local storeOptions = {name = 'UserData', scope = 'scope'}
+local storeOptions = {name = 'UserData', scope = 'scope', saveInStudio = false}
 local profileTemplate = {['Gold'] = 0, ['Inventory'] = {['Item1'] = 5}}
 local GleamStore = Gleam.new(storeOptions, profileTemplate)
 ```
