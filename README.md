@@ -57,6 +57,11 @@ It is easy to get the current value of anything inside the players data!
 ```lua
 Profile.Data:Grab({'Gold'}):Get() --> will return the amount of Gold the player has
 Profile.Data:Grab({'Inventory'}):Get() --> Will return the players Inventory
+
+OR
+
+Profile.Data.Value['Gold'].Value --> Will get the current value of Gold
+Profile.Data.Value['Inventory'] --> Will get the current Inventory
 ```
 
 # Client Documentation
