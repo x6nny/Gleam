@@ -43,6 +43,15 @@ This will save the players data and destroy the profile.
 Profile:Release()
 ```
 
+## Incrementing / inserting new values
+There are multiple ways to add or increment values in the players data!
+```lua
+Profile.Data:Grab({'Gold'}):Set(500) --> Will set the value to exact 500
+Profile.Data:Grab({'Gold'}):Increment(500) --> Will add 500 to the current value
+Profile.Data:Grab({'Inventory'}):Insert('Sword', 1) --> Will insert ['Sword'] = 1 to the Inventory key if it is a table
+Profile.Data:Grab({'Inventory'}):Remove('Sword') --> Will remove ['Sword'] = 1 from the Inventory key if it is a table
+```
+
 # Client Documentation
 
 ## GleamClientProfile.new()
