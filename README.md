@@ -52,6 +52,13 @@ Profile.Data:Grab({'Inventory'}):Insert('Sword', 1) --> Will insert ['Sword'] = 
 Profile.Data:Grab({'Inventory'}):Remove('Sword') --> Will remove ['Sword'] = 1 from the Inventory key if it is a table
 ```
 
+## Getting current values
+It is easy to get the current value of anything inside the players data!
+```lua
+Profile.Data:Grab({'Gold'}):Get() --> will return the amount of Gold the player has
+Profile.Data:Grab({'Inventory'}):Get() --> Will return the players Inventory
+```
+
 # Client Documentation
 
 ## GleamClientProfile.new()
