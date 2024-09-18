@@ -11,6 +11,7 @@ https://create.roblox.com/store/asset/118382162264841/Gleam?externalSource=www&a
 # Features
 - Easy to set & get values
 - Replicate to client with ease
+- Option to disable saving when play-testing in studio
 
 # Server Documentation
 ## Gleam.new()
